@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bri's Art Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container">
+        <h1 class="logo">BrienArts</h1>
+        <nav aria-label="Primary">
+            <ul class="nav">
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        </div>
+    </header>
+    <main id="content">
+        <section class="hero" aria-labelledby="intro-title">
+            <div class="container">
+                <div class="hero-grid">
+                    <div>
+                        <h2 id="intro-title">Hi, I'm BrienArts!</h2>
+                        <p class="lead">I do digital painting and multimedia.</p>
+                        <a class="btn" href="#projects">See my works!</a>
+                    </div>
+                    <figure class="profile">
+                        <img src="images/image-backgorund.png" alt="artwork-background" />
+                        <figcaption><br>Based in Butuan City, PH</figcaption>
+                    </figure>
+                </div>
+            </div>
+        </section>
+        <section id="about" class="section" aria-label="about-title">
+            <div class="container">
+                <h2 id="about-title">About</h2>
+                <p>
+                    I am an intermediate digital artist who focuses on concept art and environmental rendering. I also do
+                    multimedia specializing in film and video. I enjoy pursuing these hobbies as i've been doing it since I
+                    was in highschool.
+                </p>
+                <p>
+                    I mainly use <strong>CLIP STUDIO PAINT / Procreate</strong> for my artworks and I use <strong>Adobe Premiere Pro & After Effects</strong>
+                    for video editing. If you're interested in my work you can contact me via <a href="#contact">email</a>.
+                </p>
+            </div>
+        </section>
+        <section id="projects" class="section" aria-labelledby="projects-title">
+            <div class="container">
+                <h2 id="projects-title">Projects</h2>
+                <div class="cards">
+                    <article class="card">
+                        <img src="images/image1.png" alt="art-1">
+                        <div class="card-body">
+                            <h3>Heaven & Earth</h3>
+                            <p>This artwork shows how an angel fell from heaven to hell.</p>
+                            <a class="btn btn-outline" href="#lightbox-image1">View</a>
+                        </div>
+                    </article>
+                    <article class="card">
+                        <img src="images/image2.png" alt="art-2">
+                        <div class="card-body">
+                            <h3>Mystic and Archs</h3>
+                            <p>Original Creation by Bryan Oja, shows an archer and a mythical creature trying to communicate.</p>
+                            <a class="btn btn-outline" href="#lightbox-image2">View</a>
+                        </div>
+                    </article>
+                    <article class="card">
+                        <img src="images/image3.png" alt="art-3">
+                        <div class="card-body">
+                            <h3>The Stampede</h3>
+                            <p>This is an artwork inspired from the classic japanese animated show, TriGun.</p>
+                            <a class="btn btn-outline" href="#lightbox-image2">View</a>
+                        </div>
+                    </article>
+                    <article class="card">
+                        <div class="video-container">
+                            <video controls>
+                            <source src="videos/video1.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                        <div class="card-body">
+                            <h3>The Glorious Evolution</h3>
+                            <p>My entry for the DAUG 2025 fan-made video competition. 1st Place.</p>
+                        </div>
+                    </article>
+                    <article class="card">
+                        <div class="video-container">
+                            <video controls>
+                            <source src="videos/video2.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                        <div class="card-body">
+                            <h3>A short animation</h3>
+                            <p>Tried out animation as well, used Clip Studio Paint for animating and did the Post-production inside Adobe Premiere.</p>
+                        </div>
+                    </article>
+                    <article class="card">
+                        <div class="video-container">
+                            <video controls>
+                            <source src="videos/video3.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                        <div class="card-body">
+                            <h3>A Week to Remember</h3>
+                            <p>A montage short of me and my significant other.</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <div id="lightbox-image1" class="lightbox">
+            <a href="#" class="lightbox-close">X</a>
+            <img src="images/image1.png" alt="Artwork 1 - Full View">
+        </div>
+        <div id="lightbox-image2" class="lightbox">
+            <a href="#" class="lightbox-close">X</a>
+            <img src="images/image2.png" alt="Artwork 2 - Full View">
+        </div>
+        <div id="lightbox-image3" class="lightbox">
+            <a href="#" class="lightbox-close">X</a>
+            <img src="images/image3.png" alt="Artwork 3 - Full View">
+        </div>
+        <section id="skills" class="section" aria-labelledby="skills-title">
+            <div class="container">
+                <h2 id="skills-title">Skills</h2>
+                <ul class="chips" role="list"> 
+                    <li>Illustration / Digital Art</li>
+                    <li>Video Editing</li>
+                    <li>Videography</li>
+                </ul>
+            </div>
+        </section>
+        <section id="contact" class="section" aria-labelledby="contact-title">
+            <div class="container">
+                <h2 id="contact-title">Contact</h2>
+                <address>
+                    Email : <a href="bryanoja15@gmail.com">bryanoja15@gmail.com</a><br   />
+                    Location :  Butuan City, Philippines
+                </address>
+            </div>
+        </section>
+    </main>
+    <br     />
+    <footer class="site-footer">
+        © <span id="year">2025</span> Bryan Jay Oja - Built with HTML & CSS
+    </footer>
+</body>
+</html>
